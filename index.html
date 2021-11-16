@@ -41,8 +41,11 @@
         <div class="navbar-brand">
           <img src="./images/brand-logo.png" alt="brand-logo" />
         </div>
-
         <ul class="nav-links">
+          <div class="side-nav-situ">
+            <img src="./images/burger-logo.png" alt="" />
+            <i class="fas fa-times close-btn"></i>
+          </div>
           <li><a href="">Home</a></li>
           <li><a href="">Service</a></li>
           <li><a href="">About</a></li>
@@ -51,12 +54,12 @@
           <li><a href="">Contact</a></li>
           <li><a href="">buy now</a></li>
         </ul>
-        <div class="burger">
-          <div class="line1"></div>
-          <div class="line2"></div>
-          <div class="line3"></div>
-        </div>
       </nav>
+      <div class="burger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
       <div class="heading-wrapper">
         <div class="heading-title">
           <h1>
@@ -373,7 +376,7 @@
     <section class="testimonials">
       <div class="testimonial-content">
         <div class="slides">
-          <div class="slide first">
+          <div class="slide active">
             <p>
               Aklima The standard chunk of Lorem Ipsum used since the 1500s is
               reproduced below for those interested. Sections Bonorum et Malorum
@@ -440,29 +443,30 @@
             <h6><span>JON CUMMINS</span> - COO, AMERIMAR ENTERPRISES, INC.</h6>
           </div>
         </div>
+
         <div class="thumbnails">
-          <div class="thumb1">
+          <div class="thumb thumb1 active">
             <img src="./images/testimonial-button-1.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb2">
+          <div class="thumb thumb2">
             <img src="./images/testimonial-button-2.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb3">
+          <div class="thumb thumb3">
             <img src="./images/testimonial-button-3.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb4">
+          <div class="thumb thumb4">
             <img src="./images/testimonial-button-4.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb5">
+          <div class="thumb thumb5">
             <img src="./images/testimonial-button-5.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb6">
+          <div class="thumb thumb6">
             <img src="./images/testimonial-button-6.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb7">
+          <div class="thumb thumb7">
             <img src="./images/testimonial-button-7.jpg" alt="thumbnail" />
           </div>
-          <div class="thumb8">
+          <div class="thumb thumb8">
             <img src="./images/testimonial-button-8.jpg" alt="thumbnail" />
           </div>
         </div>
@@ -590,26 +594,6 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
-    <script type="text/javascript">
-      $('.owl-carousel').owlCarousel({
-        loop: true,
-        margin: 25,
-        nav: false,
-        responsive: {
-          100: {
-            items: 1,
-          },
-          600: {
-            items: 2,
-          },
-          800: {
-            items: 3,
-          },
-          1000: {
-            items: 4,
-          },
-        },
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
